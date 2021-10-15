@@ -15,12 +15,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
-
 LINKS = (
     ('About', '/pages/about.html'),
     ('Meetings','/pages/meetings.html'),
@@ -29,31 +23,30 @@ LINKS = (
     ('GLUG-Madurai', 'http://glug-madurai.org'),
 )
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+def get_static_asset_url(file_relative_path):
+    """
+    Return the absolute path to the given static asset file.
+    """
+    return '{}/{}'.format(SITEURL, file_relative_path)
+
 THEME = 'glugot'
-THEME_STATIC_DIR = 'theme'
+
+FAVICON_IMAGE = {
+    'path': get_static_asset_url('images/favicon.png'),
+    'mime_type': 'image/png',
+}
 
 # Custom settings for the glugot theme
 SITE_DESCRIPTION = "The website for the GNU/Linux User Group of TCE, Madurai."
 
-def get_theme_static_asset_url(file_relative_path):
-    """
-    Return the absolute path to the given static asset file.
-    """
-    return '{}/{}/{}'.format(SITEURL, THEME_STATIC_DIR, file_relative_path)
-
-
 BRAND_IMAGES = (
-    {'src': get_theme_static_asset_url('images/gnu-head.svg'), 'width': '64px', 'height': '64px', 'alt': 'GNU head'},
-    {'src': get_theme_static_asset_url('images/tux.svg'), 'width': '64px', 'height': '64px', 'alt': 'Tux'},
+    {'src': get_static_asset_url('images/gnu-head.svg'), 'width': '64px', 'height': '64px', 'alt': 'GNU head'},
+    {'src': get_static_asset_url('images/tux.svg'), 'width': '64px', 'height': '64px', 'alt': 'Tux'},
 )
 
 BRAND_TEXT = 'GLUGOT'
