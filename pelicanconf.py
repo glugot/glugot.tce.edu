@@ -34,7 +34,7 @@ def get_static_asset_url(file_relative_path):
     """
     return '{}/{}'.format(SITEURL, file_relative_path)
 
-THEME = 'glugot'
+THEME = './themes/glugot'
 
 FAVICON_IMAGE = {
     'path': get_static_asset_url('images/favicon.png'),
