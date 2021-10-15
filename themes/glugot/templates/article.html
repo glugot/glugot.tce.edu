@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>{{ article.title }}</h3>
+<div class="text-muted">
+  {{ article.date.strftime("%a %d %b %Y") }} by <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>. Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+</div>
+<hr />
+{{ article.content }}
+{% endblock %}
