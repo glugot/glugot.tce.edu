@@ -1,0 +1,11 @@
+{% for block in BLOCKS_ORDER %}
+{% for page in pages %}
+{% if page.type == "block" and page.title == block %}
+<div>
+  <h5> {{ page.title }}</h5>
+  <hr />
+  {{ page.content }}
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
