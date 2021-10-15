@@ -1,0 +1,56 @@
+AUTHOR = 'Author'
+SITENAME = 'A Pelican site'
+SITEURL = ''
+
+PATH = 'content'
+
+TIMEZONE = 'UTC'
+
+DEFAULT_LANG = 'en'
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
+# Links to display in the right side of the header.
+LINKS = (('Pelican', 'https://getpelican.com/'),
+         ('Python.org', 'https://www.python.org/'),
+         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
+)
+
+DEFAULT_PAGINATION = 10
+
+# Theme to use to produce the output. Can be a relative or absolute path to a theme folder,
+# or the name of a default theme or a theme installed via pelican-themes (see below).
+THEME = 'glugot'
+
+# Specify the favicon image to use for the site.
+FAVICON_IMAGE = {
+    'path': '{}/{}'.format(SITEURL, 'theme/images/favicon.png'),
+    'mime_type': 'image/png',
+}
+
+SITE_DESCRIPTION = 'This is a Pelican site.'
+
+# Specify the brand image(s) to use in the header.
+BRAND_IMAGES = (
+    {
+        'src': '{}/{}'.format(SITEURL, 'theme/images/tux.svg'),
+        'width': '64px',
+        'height': '64px',
+        'alt': 'Tux'
+    }
+)
+
+BRAND_TEXT = 'GLUGOT'
+
+
+# Blocks are just pages with type: block.
+BLOCKS_ORDER = [
+    'Block 1 title',
+    'Block 2 title',
+    'Block 3 title',
+]
