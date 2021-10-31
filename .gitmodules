@@ -1,0 +1,3 @@
+[submodule "themes/glugot"]
+	path = themes/glugot
+	url = https://github.com/glugot/glugot-pelican-theme
