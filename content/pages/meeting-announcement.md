@@ -2,8 +2,8 @@ Title: Meeting announcement
 type: block
 
 
-**Date**: Sat, 27 Nov 2021.
+**Date**: Sat, 22 Jan 2022.
 
 **Venue**: Online on Google Meet.
 
-**Agenda**: A presentation on 'Git in practice and git branching' by Guruprasad.
+**Agenda**: A presentation on 'Pelican static site generator' by Balachandran.
