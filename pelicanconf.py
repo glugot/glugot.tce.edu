@@ -51,9 +51,9 @@ BRAND_IMAGES = (
 
 BRAND_TEXT = 'GLUGOT'
 
-# Speicy the order of the blocks
+# Specify the order of the blocks
 BLOCKS_ORDER = [
-    "FS'tival '21 - Software Freedom Day",
+    "FS'tival '22 - Software Freedom Day",
     'Meeting announcement',
     'Join the conversation',
 ]
