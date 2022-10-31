@@ -58,4 +58,4 @@ BLOCKS_ORDER = [
     'Join the conversation',
 ]
 
-COPYRIGHT_TEXT = 'Copyright &copy; 2021 Thiagarajar College of Engineering, Madurai - 625015.'
+COPYRIGHT_TEXT = 'Copyright &copy; 2021-2022 Thiagarajar College of Engineering, Madurai - 625015.'
