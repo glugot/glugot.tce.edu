@@ -2,6 +2,9 @@ Title: FS'tival 2022
 
 GLUGOT and [GLUG-Madurai](http://glug-madurai.org) celebrate [Software Freedom Day](https://www.softwarefreedomday.org) 2022 on 05-11-2022 as FS'tival'22 at [Thiagarajar College of Engineering, Madurai](https://www.tce.edu).
 
+![FS'tival'22 brochure]({static}/images/fstival_22.jpeg)
+
+
 Below is the list of demo stalls planned for the event.
 
 * [React](https://reactjs.org/)
