@@ -53,9 +53,9 @@ BRAND_TEXT = 'GLUGOT'
 
 # Specify the order of the blocks
 BLOCKS_ORDER = [
-    "FS'tival '23 - Software Freedom Day",
+    "FS'tival '25 - Software Freedom Day",
     'Meeting announcement',
     'Join the conversation',
 ]
 
-COPYRIGHT_TEXT = 'Copyright &copy; 2021-2023 Thiagarajar College of Engineering, Madurai - 625015.'
+COPYRIGHT_TEXT = 'Copyright &copy; 2021-2025 Thiagarajar College of Engineering, Madurai - 625015.'
